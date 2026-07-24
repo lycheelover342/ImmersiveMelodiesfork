@@ -46,20 +46,36 @@ public final class Config extends JsonConfig {
     public int rightClickToDropEntityInstrumentPermissionLevel = 0;
 
     public Map<Integer, Integer> keycodeToMidi = Map.ofEntries(
-            Map.entry(65, 60), // A -> C4
-            Map.entry(83, 62), // S -> D4
-            Map.entry(68, 64), // D -> E4
-            Map.entry(70, 65), // F -> F4
-            Map.entry(71, 67), // G -> G4
-            Map.entry(72, 69), // H -> A4
-            Map.entry(74, 71), // J -> B4
-            Map.entry(75, 72), // K -> C5
-            Map.entry(81, 61), // Q -> C#4
-            Map.entry(87, 63), // W -> D#4
-            Map.entry(69, 66), // E -> F#4
-            Map.entry(82, 68), // R -> G#4
-            Map.entry(84, 70), // T -> A#4
-            Map.entry(89, 73)  // Y -> C#5
+            Map.entry(90, 60),  // Z -> C4
+            Map.entry(83, 61),  // S -> C#4
+            Map.entry(88, 62),  // X -> D4
+            Map.entry(68, 63),  // D -> D#4
+            Map.entry(67, 64),  // C -> E4
+            Map.entry(86, 65),  // V -> F4
+            Map.entry(71, 66),  // G -> F#4
+            Map.entry(66, 67),  // B -> G4
+            Map.entry(72, 68),  // H -> G#4
+            Map.entry(78, 69),  // N -> A4
+            Map.entry(74, 70),  // J -> A#4
+            Map.entry(77, 71),  // M -> B4
+            Map.entry(81, 72),  // Q -> C5
+            Map.entry(50, 73),  // 2 -> C#5
+            Map.entry(87, 74),  // W -> D5
+            Map.entry(51, 75),  // 3 -> D#5
+            Map.entry(69, 76),  // E -> E5
+            Map.entry(82, 77),  // R -> F5
+            Map.entry(53, 78),  // 5 -> F#5
+            Map.entry(84, 79),  // T -> G5
+            Map.entry(54, 80),  // 6 -> G#5
+            Map.entry(89, 81),  // Y -> A5
+            Map.entry(55, 82),  // 7 -> A#5
+            Map.entry(85, 83),  // U -> B5
+            Map.entry(73, 84),  // I -> C6
+            Map.entry(57, 85),  // 9 -> C#6
+            Map.entry(79, 86),  // O -> D6
+            Map.entry(48, 87),  // 0 -> D#6
+            Map.entry(80, 88),  // P -> E6
+            Map.entry(219, 89)  // [ -> F6
     );
 
 }
